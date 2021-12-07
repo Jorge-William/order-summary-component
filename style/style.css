@@ -79,14 +79,22 @@ h4 {
  margin-right: 20px;
 }
 
+#annual-plan-text {
+  font-weight: 900; 
+  font-size: 14px;
+  text-align: left;
+  line-height: 26px;
+}
+
 #plan-value {
   width: 95px;
 }
 
 #value-yearly {
   font-weight: 500;
-  line-height: 21px;
+  line-height: 20px;
   color: #717FA6;
+  font-size: 14px;
 }
 
 .change-link {
