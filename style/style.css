@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.border{
+  border: solid red 1px;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background: url(../images/pattern-background-desktop.svg) no-repeat top;
+  background-color: hsl(225, 100%, 94%);
+}
+ 
+#cancel-order {
+  text-decoration: none;
+  margin: 45px;
+  
+}
+
+#card-container {
+  min-width: 450px;
+  margin: 80px auto 80px auto;
+  width: 450px;
+  height: 697px;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+  background-color: hsl(225, 100%, 98%);
+}
+
+h1 {
+  margin-top: 40px;
+  font-weight: 900;
+  font-size: 28px;
+  color: #1F2E55; 
+  line-height: 37px;
+}
+
+h4 {
+  line-height:30px
+}
+
+#resume-paragraph {
+  width: 354px;
+  margin: 20px auto 20px auto;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #717FA6;
+}
+
+#plan-container {
+  display: flex;
+  border-radius: 11px;
+  width: 354px;
+  height: 98px;
+  margin: auto;
+  background: #F7F9FF;
+}
+
+#plan-row {
+  display: flex;
+  margin: auto auto;
+  height: 48px;
+  width: 306px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#icon-value-plan {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+#music-icon {
+ align-self: center;
+ margin-right: 20px;
+}
+
+#plan-value {
+  width: 95px;
+}
+
+#value-yearly {
+  font-weight: 500;
+  line-height: 21px;
+  color: #717FA6;
+}
+
+.change-link {
+  align-self: center;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #382AE1;
+}
+
+#btn-proceed {
+  background: #382AE1;
+  color: #FFFFFF;
+  height: 50px;
+  width: 354px;
+  border-radius: 11px;
+  border-style: none;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  align-self: center;
+  font-weight: 900;
+  margin: 32px 48px;
+}
+
+#btn-proceed:hover{
+  background: #766CF1;
+  cursor: pointer;
+}
+
+#cancel-order {
+  text-align: center;
+  color:#717FA6;
+  font-weight: 900;
+}
+
+h1, p {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+footer>a:hover {
+ color: #766CF1;
+}
+
+@media (a) {
+
+}
